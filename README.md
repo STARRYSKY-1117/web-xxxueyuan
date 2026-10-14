@@ -1,2 +1,2 @@
 # web-xxxueyuan
-web前端
+某某学校网站
