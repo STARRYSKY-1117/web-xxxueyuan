@@ -1,0 +1,186 @@
+.clear{
+	clear: both;
+}
+.box{
+	width: 1200px;
+	margin: auto;
+}
+body{
+	margin: 0;
+}
+
+/*banner*/
+.banner{
+	background-color: #eaeaea;
+height: 500px;
+}
+.banner ul{
+	position: relative;
+	width: 1200px;
+	height: 400px;
+	margin: 0 auto;
+	padding-top: 10px;
+	
+
+}
+.banner li{
+	position: absolute;
+	width: 610px;
+	height: 300px;
+	overflow: hidden;
+}
+.banner li.active{
+	top:15px;
+	width: 760px;
+	height: 360px;
+	margin: auto;
+	right: 0;
+	left: 0;
+	z-index: 2;
+	border: 1px solid #fff;
+	box-shadow: 0 30px 140px 22px black;
+}
+.banner li.left{
+	top:0;
+	bottom: 0;
+	left:0;
+	margin: auto;
+	box-shadow: 0 3px 7px 0 black;
+}
+.banner li.right{
+	top:0;
+	bottom: 0;
+	right:0;
+	margin: auto;
+	box-shadow: 0 3px 7px 0 black;
+}
+.banner img{
+	
+	width: 100%;
+	height: 100%;
+	
+}
+/*header*/
+header{
+	height: 80px;
+	background: linear-gradient(#4685c6,#06b8fa);
+	border-bottom:7px solid silver;
+	box-sizing: border-box;
+}
+.logo{
+	float: left;
+	margin: 15px 25px;
+}
+nav{
+	float: right;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;}
+
+header li{
+	float: left;
+}
+header a{
+	display: block;
+	width: 110px;
+	height: 73px;
+	
+	text-align: center;
+	line-height: 73px;
+	color: white;
+	text-decoration: none;
+}
+
+header li:nth-child(1){
+	background: aqua;
+}
+header li:nth-child(2){
+	background:skyblue;
+}
+header li:nth-child(3){
+	background:palegreen;}
+header li:nth-child(4){
+	background:deepskyblue;
+}
+header li:nth-child(5){
+	background:aquamarine;
+}
+header li:nth-child(6){
+	background:cornflowerblue;
+}
+header a:hover{
+	padding-bottom: 7px;
+}
+header a:active{
+	padding-bottom: 7px;
+}
+footer{
+	background: cornflowerblue;
+	border-top: 7px solid silver;
+	height: 64px;
+}
+footer p{
+	color: white;
+	float: left;
+	margin-top: 20px;
+}
+footer span{
+	display: block;
+	float: right;
+	margin: 15px 25px;
+}
+footer a{
+	opacity: 0.7;
+}
+footer a:hover{
+	opacity: 1;
+}
+.div1{
+	width: 450px;
+	float: left;
+}
+.div2{
+	width: 720px;
+	float: right;
+}
+.main h1{
+	font: 24px "微软雅黑";
+}
+.main h1 span{
+	font-size: 16px;
+	color: slategray;
+	margin-left: 10px;
+}
+.div2 img{
+	width: 100%;
+	height: 205px;
+}
+.main{
+	height: 450px;
+}
+.div2 p{
+	text-indent: 2em;
+	font: 14px "宋体";
+}
+.div1 li{
+	height: 85px;
+}
+.div1 p{
+	margin: 5px;
+}
+.div1 img{
+	float: left;
+	margin-right: 20px;
+}
+.div1{
+	font-size: 14px;
+	margin: 0;
+}
+.div1 li p:first-of-type{
+	 font-weight: bold;
+	 text-decoration: underline;
+	 font-size: 16px;
+}
